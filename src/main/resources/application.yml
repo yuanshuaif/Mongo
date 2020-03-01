@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+        primary:
+           uri: mongodb://root:ufsoft123@dds-2ze101ec0861da041.mongodb.rds.aliyuncs.com:3717/tt
+           host: dds-2ze101ec0861da041.mongodb.rds.aliyuncs.com
+           port: 3717
+           username: root
+           password: ufsoft123
+           database: tt
+        secondary:
+           uri: mongodb://root:ufsoft123@dds-2ze101ec0861da041.mongodb.rds.aliyuncs.com:3717/admin
+           host: dds-2ze101ec0861da041.mongodb.rds.aliyuncs.com
+           port: 3717
+           username: root
+           password: ufsoft123
+           database: admin
